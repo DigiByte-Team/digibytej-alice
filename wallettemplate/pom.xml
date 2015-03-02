@@ -55,7 +55,7 @@
     <dependencies>
         <dependency>
             <groupId>org.bitcoinj</groupId>
-            <artifactId>bitcoinj-core</artifactId>
+            <artifactId>digibytej-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

@@ -21,14 +21,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.bitcoinj</groupId>
-        <artifactId>bitcoinj-parent</artifactId>
+        <artifactId>digibytej-parent</artifactId>
         <version>0.13-alice-SNAPSHOT</version>
     </parent>
 
-    <artifactId>bitcoinj-core</artifactId>
+    <artifactId>digibytej-core</artifactId>
 
-    <name>bitcoinj</name>
-    <description>A Java Bitcoin library</description>
+    <name>digibytej</name>
+    <description>A Java Digibyte library</description>
 
     <packaging>jar</packaging>
 
@@ -334,7 +334,7 @@
                                 <artifactItem>
                                     <outputDirectory>target/test-classes/</outputDirectory>
                                     <groupId>org.bitcoinj</groupId>
-                                    <artifactId>bitcoinj-core</artifactId>
+                                    <artifactId>digibytej-core</artifactId>
                                     <version>${project.version}</version>
                                 </artifactItem>
                             </artifactItems>
